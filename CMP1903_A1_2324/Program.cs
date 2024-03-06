@@ -8,6 +8,11 @@ namespace CMP1903_A1_2324
 {
     internal class Program
     {
-    
+        static void Main()
+        {
+            Testing test = new Testing();
+            Game game = new Game();
+            game.PlayGame();
+        }
     }
 }

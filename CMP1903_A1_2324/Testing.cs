@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace CMP1903_A1_2324
 {
-    internal class Testing
+    public class Testing
     {
+        // Verifying the random numbers and the sum are in the correct range
         public static void Test(int number1, int number2, int number3, int sum)
         {
             Debug.Assert(number1 >= 1 && number1 <= 6, "Die 1 value out of range");
